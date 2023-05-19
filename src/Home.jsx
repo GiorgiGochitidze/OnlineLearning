@@ -5,19 +5,19 @@ import './App.css'
 function Home() {
 
     const Html = () => (
-        <motion.h3 transition={{ duration: 0.5}} className='little-games' whileHover={{rotate: 360}}>HTML</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>HTML</motion.h3>
     )
 
     const Css = () => (
-        <motion.h3 transition={{ duration: 0.5}} className='little-games' whileHover={{rotate: 360}}>CSS</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>CSS</motion.h3>
     )
 
     const Js = () => (
-        <motion.h3 transition={{ duration: 0.5}} className='little-games' whileHover={{rotate: 360}}>Javascript</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>Javascript</motion.h3>
     )
 
     const React = () => (
-        <motion.h3 transition={{ duration: 0.5}} className='little-games' whileHover={{rotate: 360}}>React JS</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>React JS</motion.h3>
     )
 
     return(
