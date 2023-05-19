@@ -48,6 +48,28 @@ function Home() {
                 </div>
             </div>
         </div>
+
+        <div className='aboutus-main-container'>
+            <div>
+                <h3 style={{textAlign: 'center'}}>რას გთავაზობთ?</h3>
+                <img style={{borderRadius: '20px'}} alt="a vior logo" src={Vior}/>
+            </div>
+
+            <div className='about-us-content'>
+                <div style={{overflow: 'hidden', display: 'flex', flexDirection: 'row', justifyContent: 'space-around', width: '100%', height: '70px'}}>
+                    <Html /> <React />
+                </div>
+                <p>ჩვენ გთავაზობთ სპეციალურ კურსებს რომლებიც გათვალისწინებული იქნება დამწყებთა
+                    დონისთვის ასევე შემოგთავაზებთ ეგრედწოდებულ Road Map-ს  რომლის საშუალებითაც
+                    შეძლებთ გააგრძელოთ სწავლა თქვენით ან მიჰყვეთ იმ გზას რომელიც თქვენ გსურთ. 
+                    ასევე გთხოვთ გაითვალისწინოთ რომ ყველა მოწოდებული ინფორმაცია უმეტეს შემთხვევაში 
+                    იქნება აღებული სხვებიდან ანუ იქნება სხვისი კურსები რომელიც შესაფერისი იქნება თქვენს დონესთან.
+                </p>
+                <div style={{overflow: 'hidden', display: 'flex', flexDirection: 'row', justifyContent: 'space-around', width: '100%'}}>
+                <Css /> <Js />
+                </div>
+            </div>
+        </div>
       </div>
     </div>
     )
