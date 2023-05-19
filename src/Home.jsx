@@ -32,7 +32,7 @@ function Home() {
       <div className='body-container'>
         <div className='aboutus-main-container'>
             <div>
-                <h3 style={{paddingInline: '15px'}}>ვინ ვართ ჩვენ?</h3>
+                <h3 style={{textAlign: 'center'}}>ვინ ვართ ჩვენ?</h3>
                 <img style={{borderRadius: '20px'}} alt="a vior logo" src={Vior}/>
             </div>
 
