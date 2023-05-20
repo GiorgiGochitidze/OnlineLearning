@@ -5,19 +5,23 @@ import './App.css'
 function Home() {
 
     const Html = () => (
-        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>HTML</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games'
+        whileHover={{translateY: -5}}>HTML</motion.h3>
     )
 
     const Css = () => (
-        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>CSS</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games'
+        whileHover={{translateY: -5}}>CSS</motion.h3>
     )
 
     const Js = () => (
-        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>Javascript</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games'
+        whileHover={{translateY: -5}}>Javascript</motion.h3>
     )
 
     const React = () => (
-        <motion.h3 transition={{ duration: 0.3}} className='little-games' whileHover={{translateY: -5}}>React JS</motion.h3>
+        <motion.h3 transition={{ duration: 0.3}} className='little-games'
+        whileHover={{translateY: -5}}>React JS</motion.h3>
     )
 
     return(
@@ -30,10 +34,13 @@ function Home() {
       </header>
 
       <div className='body-container'>
+            <h1 style={{color: 'white'}}>ჩვენს შესახებ</h1>
         <div className='aboutus-main-container'>
+
+
             <div>
                 <h3 style={{textAlign: 'center'}}>ვინ ვართ ჩვენ?</h3>
-                <img style={{borderRadius: '20px'}} alt="a vior logo" src={Vior}/>
+                <img style={{borderRadius: '20px'}} alt="a vior logo" title='Our Group Logo' src={Vior}/>
             </div>
 
             <div className='about-us-content'>
@@ -52,7 +59,7 @@ function Home() {
         <div className='aboutus-main-container'>
             <div>
                 <h3 style={{textAlign: 'center'}}>რას გთავაზობთ?</h3>
-                <img style={{borderRadius: '20px'}} alt="a vior logo" src={Vior}/>
+                <img style={{borderRadius: '20px'}} alt="a vior logo" title='Our Group Logo' src={Vior}/>
             </div>
 
             <div className='about-us-content'>
